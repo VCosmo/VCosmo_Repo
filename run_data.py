@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNKKiLaR8NMEIsb3q6BDkLm",
+      "authorship_tag": "ABX9TyOVl1FJRAJaEvf8i1OCAF/E",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,34 +28,17 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "MHEzGnRdKJ6q"
-      },
-      "outputs": [],
       "source": [
+        "import os, sys\n",
+        "import pandas as pd\n",
         "import pickle\n",
         "from scipy.integrate import cumtrapz\n",
         "import scipy\n",
         "\n",
-        "from gal4H0 import *"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "cosmo=FlatLambdaCDM(H0=70.,Om0=0.25)"
-      ],
-      "metadata": {
-        "id": "Kdkr9XHZKRka"
-      },
-      "execution_count": null,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "import pandas as pd\n",
+        "from gal4H0 import *\n",
+        "\n",
+        "cosmo=FlatLambdaCDM(H0=70.,Om0=0.25)\n",
+        "\n",
         "# Define the path to the catalog compressed CSV file:\n",
         "catalog_filename = \"/content/drive/MyDrive/13826.csv.bz2\"  \n",
         "# Define the list of columns that uniquely identify each row\n",
@@ -64,18 +47,7 @@
         "galaxies_list=data['z'].to_numpy()[0:1000:]\n",
         "Labs=M2L(abs_M)\n",
         "app_m=M2m(abs_M, cosmo.luminosity_distance(galaxies_list).to('Mpc').value)\n",
-        "print(len(app_m))"
-      ],
-      "metadata": {
-        "id": "dX-sc4mEKSlW"
-      },
-      "execution_count": null,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "import os, sys\n",
+        "print(len(app_m))\n",
         "sys.path.append('../')\n",
         "\n",
         "np.random.seed(0)\n",
