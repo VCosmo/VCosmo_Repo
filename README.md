@@ -17,3 +17,5 @@ To run the notebooks you will need a working copy of Python3 with standard packa
 - `PP_plots`: Contains some examples of PP-plots. The figures are labeled with gw`number` for the gw detections, gal`number` for the galaxies in the catalog, s`number` for the percentage luminosity distance error and rep`number` for the repetitions.
 
 - `single_posteriors` : Some examples of single posteriors.
+
+- `Catalogs` : Galaxy catalog from MICEcat used for this simulation.
