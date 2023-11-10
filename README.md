@@ -10,4 +10,6 @@ To run the notebooks you will need a working copy of Python3 with standard packa
 
 - run_data.ipynb : generate a number Nrep of posteriors on H0 for three different assumptions on the intrinsic luminosity dependence.
 
-- ppplots.ipynb: It produces the PP-plots (Parameter-Parameter plots). Unfortunately git does not have the possibility of storing very heavy files. To produce the files needed for this notebook, you will need to run the python script run_data.ipynb .
+- PP-plots.ipynb: It produces the PP-plots (Parameter-Parameter plots). Unfortunately git does not have the possibility of storing very heavy files. To produce the files needed for this notebook, you will need to run the python script run_data.ipynb .
+
+- stack_data_PP-Plots.ipynb : It produces the PP-plots stacking togheter four different data sets of the same kind. Useful in the case you need to run data in parallel.
