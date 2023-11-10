@@ -13,3 +13,7 @@ To run the notebooks you will need a working copy of Python3 with standard packa
 - PP-plots.ipynb: It produces the PP-plots (Parameter-Parameter plots). Unfortunately git does not have the possibility of storing very heavy files. To produce the files needed for this notebook, you will need to run the python script run_data.ipynb .
 
 - stack_data_PP-Plots.ipynb : It produces the PP-plots stacking togheter four different data sets of the same kind. Useful in the case you need to run data in parallel.
+
+- `PP_plots`: Contains some examples of PP-plots. The figures are labeled with gw`number` for the gw detections, gal`number` for the galaxies in the catalog, s`number` for the percentage luminosity distance error and rep`number` for the repetitions.
+
+- `single_posteriors` : Some examples of single posteriors.
