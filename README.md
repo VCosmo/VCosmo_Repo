@@ -4,4 +4,6 @@ To run the notebooks you will need a working copy of Python3 with standard packa
 
 # Short description of the content
 
-- gal4H0_upgraded.py: Python module from [This GitHub](https://github.com/simone-mastrogiovanni/hitchhiker_guide_dark_sirens) collecting all the function used for simulating mock data and calculating the hierarchical likelihood as function of H0.
+- gal4H0_luminosity.py: Python module from https://github.com/simone-mastrogiovanni/hitchhiker_guide_dark_sirens , for simulating mock data and calculating the likelihood as function of H0. Some functions are updated to the the case in which we have a non negligible intrinsic luminosity dependence.
+
+- H0analysis.ipynb: Do the analysis for various number of GW events exploring different cases for the GW likelihood.
