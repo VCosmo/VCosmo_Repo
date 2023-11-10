@@ -8,6 +8,6 @@ To run the notebooks you will need a working copy of Python3 with standard packa
 
 - H0analysis.ipynb : Do the analysis for various number of GW events exploring different cases for the GW likelihood. It extracts the mean value for H0 and the interval that contains 68% area of the posterior.
 
-- run_data.ipynb : generate 
+- run_data.ipynb : generate a number Nrep of posteriors on H0 for three different assumptions on the intrinsic luminosity dependence.
 
 - ppplots.ipynb: It produces the PP-plots (Parameter-Parameter plots). Unfortunately git does not have the possibility of storing very heavy files. To produce the files needed for this notebook, you will need to run the python script run_data.ipynb .
