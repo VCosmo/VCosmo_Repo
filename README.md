@@ -4,4 +4,4 @@ To run the notebooks you will need a working copy of Python3 with standard packa
 
 # Short description of the content
 
-- 'gal4H0_upgraded.py': Python module from  collecting all the function used for simulating mock data and calculating the hierarchical likelihood as function of H0.
+- 'gal4H0_upgraded.py' : Python module from  collecting all the function used for simulating mock data and calculating the hierarchical likelihood as function of H0.
